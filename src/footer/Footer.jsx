@@ -1,6 +1,7 @@
+import style from './footer.module.css'
+
 export default function Footer(){
   return <>
-    <h2>footer</h2>
-    <p>this is footer</p>
+    <h1>footer</h1>
   </>
 }
