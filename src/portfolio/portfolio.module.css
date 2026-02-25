@@ -1,0 +1,32 @@
+.title{
+  font-size: 4rem;
+  color: var(--main-color);
+}
+.star {
+  position: relative;
+}
+.star::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 50%;
+  right: 45px;
+}
+.star::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 4px;
+  background-color: var(--main-color);
+  top: 50%;
+  left: 45px;
+}
+:root{
+  --main-color: #2c3e50 ;
+  --secondary-color: #1abc9c;
+  --font-style: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}

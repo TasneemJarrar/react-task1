@@ -11,19 +11,19 @@
   content: '';
   display: block;
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 4px;
   background-color: #ffffff;
   top: 50%;
-  right: 40px;
+  right: 45px;
 }
 .star::after{
   content: '';
   display: block;
   position: absolute;
-  width: 100px;
+  width: 150px;
   height: 4px;
   background-color: #ffffff;
   top: 50%;
-  left: 40px;
+  left: 45px;
 }
