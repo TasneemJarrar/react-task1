@@ -4,7 +4,7 @@ export default function Navbar() {
   console.log(style);
   return (
     <>
-      <nav className={`${style.navBgColor} navbar navbar-expand-lg py-3 position-sticky top-0`}>
+      <nav className={`${style.navBgColor} navbar navbar-expand-lg py-3 position-sticky top-0 z-3`}>
         <div className="container">
           <a className="navbar-brand text-white fw-bold fs-2 d-flex justify-content-center align-items-center" href="#">
             START BOOTSTRAP
@@ -28,9 +28,9 @@ export default function Navbar() {
               <path
                 fill="none"
                 stroke="#fff"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
                 d="M10 5h10M4 12h16M4 19h10"
               />
             </svg>

@@ -2,7 +2,7 @@
   background-color: var(--secondary-color);
 }
 .heroTitle{
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .star {
   position: relative;
@@ -11,7 +11,7 @@
   content: '';
   display: block;
   position: absolute;
-  width: 150px;
+  width: 130px;
   height: 4px;
   background-color: #ffffff;
   top: 50%;
@@ -21,7 +21,7 @@
   content: '';
   display: block;
   position: absolute;
-  width: 150px;
+  width: 130px;
   height: 4px;
   background-color: #ffffff;
   top: 50%;

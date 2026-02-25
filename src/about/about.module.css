@@ -1,0 +1,29 @@
+.aboutBg{
+  background-color: var(--secondary-color);
+}
+.title{
+  font-size: 3.5rem;
+}
+.star {
+  position: relative;
+}
+.star::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 4px;
+  background-color: #fff;
+  top: 50%;
+  right: 45px;
+}
+.star::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 4px;
+  background-color: #fff;
+  top: 50%;
+  left: 45px;
+}

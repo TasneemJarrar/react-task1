@@ -11,7 +11,7 @@ export default function Portfolio() {
     <section className="portfolioSection py-5">
       <div className="container">
 
-        <div className="section-title d-flex flex-column gap-3 justify-content-center align-items-center">
+        <div className="section-title d-flex flex-column justify-content-center align-items-center">
           <p className={`${style.title} fw-bold`}>PORTFOLIO</p>
           <div className={style.star}>
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className='star'>

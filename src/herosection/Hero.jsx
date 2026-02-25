@@ -7,11 +7,11 @@ export default function Hero(){
     <section className="heroSection">
       <div className={style.heroBg}>
         <div className="container py-5">
-          <div className="heroContent d-flex flex-column gap-4 justify-content-center align-items-center">
+          <div className="heroContent d-flex gap-2 flex-column gap-4 justify-content-center align-items-center">
             <img src={heroImg} alt="" width='250px'/>
 
-            <div className="textContent d-flex flex-column gap-3 justify-content-center align-items-center">
-              <h1 className={`${style.heroTitle} fw-bold text-white`}>START BOOTSTRAP</h1>
+            <div className="textContent d-flex gap-4 flex-column justify-content-center align-items-center">
+              <h1 className={`${style.heroTitle} fw-bold text-white text-center`}>START BOOTSTRAP</h1>
               <div className={style.star}>
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" className='star'>
