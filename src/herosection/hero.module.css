@@ -1,0 +1,29 @@
+.heroBg{
+  background-color: var(--secondary-color);
+}
+.heroTitle{
+  font-size: 4rem;
+}
+.star {
+  position: relative;
+}
+.star::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: #ffffff;
+  top: 50%;
+  right: 40px;
+}
+.star::after{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: #ffffff;
+  top: 50%;
+  left: 40px;
+}

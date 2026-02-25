@@ -4,9 +4,9 @@ export default function Navbar() {
   console.log(style);
   return (
     <>
-      <nav className={`${style.navBgColor} navbar navbar-expand-lg py-4`}>
+      <nav className={`${style.navBgColor} navbar navbar-expand-lg py-3 position-sticky top-0`}>
         <div className="container">
-          <a className="navbar-brand text-white fw-bold fs-2" href="#">
+          <a className="navbar-brand text-white fw-bold fs-2 d-flex justify-content-center align-items-center" href="#">
             START BOOTSTRAP
           </a>
           <button
@@ -18,7 +18,7 @@ export default function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            MENU
+            MENU 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -37,10 +37,10 @@ export default function Navbar() {
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active text-white fw-bold" aria-current="page" href="#">PORTFOLIO</a>
-              <a class="nav-link text-white fw-bold ms-3" href="#">ABOUT</a>
-              <a class="nav-link text-white fw-bold ms-3" href="#">CONTACT</a>
+            <div className="navbar-nav ms-auto">
+              <a className="nav-link active text-white fw-bold" aria-current="page" href="#">PORTFOLIO</a>
+              <a className="nav-link text-white fw-bold ms-3" href="#">ABOUT</a>
+              <a className="nav-link text-white fw-bold ms-3" href="#">CONTACT</a>
             </div>
           </div>
         </div>
